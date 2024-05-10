@@ -16,9 +16,15 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-start-rgb));
+} */
+
+@layer base {
+  body {
+    @apply m-auto max-w-screen-2xl bg-[#EDEDED];
+  }
 }
 
 @layer utilities {

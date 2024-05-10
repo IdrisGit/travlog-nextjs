@@ -39,7 +39,7 @@ export const Navbar = () => {
           <li className='px-8 py-4 text-sm font-bold text-[#222831]'>
             <Link href='#'>Log In</Link>
           </li>
-          <li className='rounded-[100px] bg-[#5D50C6] px-8 py-4 text-sm font-bold'>
+          <li className='rounded-[100px] bg-[#5D50C6] px-8 py-4 text-sm font-bold text-[#EEEEEE]'>
             <Link href='#'>Sign Up</Link>
           </li>
         </ul>
