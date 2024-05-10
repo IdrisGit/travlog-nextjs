@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const Navbar = () => {
   return (
-    <nav className='flex h-28 flex-row items-center justify-between px-40 font-nunito'>
+    <nav className='m-auto flex h-28 w-fit flex-row items-center justify-between gap-40 font-nunito'>
       <div className='flex flex-row items-center gap-4'>
         <Image
           src='/logo.svg'
