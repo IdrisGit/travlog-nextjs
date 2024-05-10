@@ -46,7 +46,7 @@ export const Footer = () => {
               <Link href='#'>Partner with us</Link>
             </li>
             <li>
-              <Link href='#'>FAQ's</Link>
+              <Link href='#'>FAQ&apos;s</Link>
             </li>
             <li>
               <Link href='#'>Blog</Link>
