@@ -8,13 +8,21 @@ import { Footer } from '@/app/Footer';
 
 export default function Home() {
   return (
-    <main className='h-dvh bg-white'>
+    <main className='bg-white'>
       <Navbar />
-      <Services />
-      {/* <ClientLogos /> */}
-      {/* <TravelPoint /> */}
-      {/* <NewsletterCTA /> */}
-      {/* <Footer /> */}
+      <div>
+        <ClientLogos />
+      </div>
+      <div>
+        <Services />
+      </div>
+      <div>
+        <TravelPoint />
+      </div>
+      <div>
+        <NewsletterCTA />
+      </div>
+      <Footer />
     </main>
   );
 }
