@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Navbar } from '@/app/Navbar';
+import { Hero } from '@/app/Hero';
 import { ClientLogos } from '@/app/ClientLogos';
 import { Services } from '@/app/Services';
 import { TravelPoint } from '@/app/TravelPoint';
@@ -10,6 +11,9 @@ export default function Home() {
   return (
     <main className='bg-white'>
       <Navbar />
+      <div>
+        <Hero />
+      </div>
       <div>
         <ClientLogos />
       </div>
