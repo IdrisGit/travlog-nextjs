@@ -1,14 +1,16 @@
 import Image from 'next/image';
 import { Navbar } from '@/app/Navbar';
-import { Footer } from '@/app/Footer';
+import { TravelPoint } from './TravelPoint';
 import { NewsletterCTA } from '@/app/NewsletterCTA';
+import { Footer } from '@/app/Footer';
 
 export default function Home() {
   return (
-    <main className='bg-white'>
+    <main className='h-dvh bg-white'>
       <Navbar />
-      <NewsletterCTA />
-      <Footer />
+      <TravelPoint />
+      {/* <NewsletterCTA /> */}
+      {/* <Footer /> */}
     </main>
   );
 }
