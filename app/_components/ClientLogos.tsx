@@ -8,7 +8,7 @@ import { ClientLogosGraphics } from '@/components/svgs';
 
 export const ClientLogos = () => {
   return (
-    <div className='relative flex h-full w-full justify-between px-[165px] py-16'>
+    <div className='relative flex h-full w-full flex-wrap justify-evenly gap-6 pt-8 xl:justify-between xl:gap-0 xl:px-[165px] xl:py-16'>
       <Image
         src={TripadvisorLogo}
         alt='Tripadvisor Logo'
@@ -29,7 +29,7 @@ export const ClientLogos = () => {
         src={RbitzLogo}
         alt='Rbitz Logo'
       />
-      <div className='absolute bottom-[45px] left-[38px]'>
+      <div className='absolute bottom-[45px] left-[38px] hidden xl:block'>
         <ClientLogosGraphics />
       </div>
     </div>
