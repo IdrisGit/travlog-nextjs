@@ -4,7 +4,7 @@ import ExpediaLogo from '@/public/assets/ExpediaLogo.png';
 import BookingdotcomLogo from '@/public/assets/BookingdotcomLogo.png';
 import AirbnbLogo from '@/public/assets/AirbnbLogo.png';
 import RbitzLogo from '@/public/assets/RbitzLogo.png';
-import { ClientLogosGraphics } from '@/components/svgs/ClientLogosGraphics';
+import { ClientLogosGraphics } from '@/components/svgs';
 
 export const ClientLogos = () => {
   return (

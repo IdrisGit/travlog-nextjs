@@ -1,10 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@headlessui/react';
-import { Suitcase } from '@/components/svgs/Suitcase';
-import { Play } from '@/components/svgs/Play';
-import { Send } from '@/components/svgs/Send';
-import { AddUser } from '@/components/svgs/AddUser';
-import { Location } from '@/components/svgs/Location';
+import { AddUser, Location, Suitcase, Play, Send } from '@/components/svgs';
 import HeroImageOne from '@/public/assets/HeroImageOne.png';
 import HeroImageTwo from '@/public/assets/HeroImageTwo.png';
 import HeroImageThree from '@/public/assets/HeroImageThree.png';

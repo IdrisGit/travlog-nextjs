@@ -3,10 +3,7 @@
 import React from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import AutoScroll from 'embla-carousel-auto-scroll';
-
-import { GlobeDestination } from '@/components/svgs/GlobeDestination';
-import { Booking } from '@/components/svgs/Booking';
-import { Cloudy } from '@/components/svgs/Cloudy';
+import { Booking, Cloudy, GlobeDestination } from '@/components/svgs';
 
 interface Slide {
   icon: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;

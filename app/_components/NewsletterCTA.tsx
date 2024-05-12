@@ -1,6 +1,5 @@
 import { Input, Button } from '@headlessui/react';
-import { EnvelopeIcon } from '@/components/svgs/Envelope';
-import { NewsletterGraphic } from '@/components/svgs/NewsletterGraphics';
+import { EnvelopeIcon, NewsletterGraphic } from '@/components/svgs';
 
 export const NewsletterCTA = () => {
   return (

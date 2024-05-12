@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Facebook } from '@/components/svgs/Facebook';
-import { Twitter } from '@/components/svgs/Twitter';
-import { Instagram } from '@/components/svgs/Instagram';
+import { Facebook, Twitter, Instagram } from '@/components/svgs';
 
 export const Footer = () => {
   return (

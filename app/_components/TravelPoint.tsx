@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import { TicketStar } from '@/components/svgs/TicketStar';
-import { SquigglyPercent } from '@/components/svgs/SquigglyPercent';
+import { SquigglyPercent, TicketStar } from '@/components/svgs';
 import womanOnSuitcase from '@/public/assets/WomanOnSuitcase.png';
 
 export const TravelPoint = () => {
@@ -30,7 +29,7 @@ export const TravelPoint = () => {
           src={womanOnSuitcase}
           alt=''
         />
-        <div className='shadow-discount_shadow absolute right-0 top-[131px] flex items-center gap-4 rounded-full bg-white px-8 py-4'>
+        <div className='absolute right-0 top-[131px] flex items-center gap-4 rounded-full bg-white px-8 py-4 shadow-discount_shadow'>
           <SquigglyPercent />
           <p className='text-2xl text-[#191825]'>Discounted Price</p>
         </div>
