@@ -4,8 +4,8 @@ import { Facebook, Twitter, Instagram } from '@/components/svgs';
 
 export const Footer = () => {
   return (
-    <footer className='m-auto flex w-full flex-col gap-16 px-[165px] font-nunito'>
-      <div className='flex flex-row items-start justify-between gap-[153px]'>
+    <footer className='m-auto flex w-full flex-col gap-16 font-nunito xl:px-[165px]'>
+      <div className='flex flex-col items-start justify-between gap-[153px] xl:flex-row'>
         <div className='flex flex-col gap-8 xl:max-w-[281px]'>
           <div className='flex flex-row items-center gap-4'>
             <Image
@@ -23,7 +23,7 @@ export const Footer = () => {
             </p>
           </div>
         </div>
-        <div className='flex h-full flex-1 flex-col flex-wrap gap-[121px] xl:flex-row'>
+        <div className='mx-auto flex h-full flex-1 flex-col flex-wrap gap-[121px] xl:flex-row'>
           <div className='flex flex-none flex-col gap-8'>
             <h6 className='text-[23px] font-bold text-[#191825]'>Company</h6>
             <ul className='flex flex-col gap-8 font-inter text-lg text-[#191825BF]'>
@@ -107,7 +107,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-row gap-8'>
+      <div className='mx-auto flex w-fit flex-row gap-8'>
         <Link href='#'>
           <Facebook />
         </Link>
