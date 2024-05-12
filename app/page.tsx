@@ -10,7 +10,7 @@ export default function Home() {
       <div className='absolute left-[1351px] top-[847px] h-[500px] w-[500px] rounded-full bg-[#FACD49] bg-opacity-50 blur-[500px]'></div>
       {/* Gradient colored backgrounds from the figma design */}
       <Navbar />
-      <div className='mt-16 h-[713px] pl-[165px]'>
+      <div className='mt-16 xl:h-[713px] xl:pl-[165px]'>
         <Hero />
       </div>
       <div className='mt-16 w-full'>

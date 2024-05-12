@@ -8,13 +8,18 @@ import HeroPattern from '@/public/assets/HeroPattern.svg';
 
 export const Hero = () => {
   return (
-    <div className='flex h-full w-full flex-row items-center font-nunito'>
-      <div className='flex w-[427px] flex-col gap-[43px]'>
+    <div className='flex h-full w-full flex-row font-nunito xl:items-center'>
+      <div className='relative flex w-full flex-col gap-8 pt-6 xl:w-[427px] xl:gap-[43px] xl:pt-0'>
+        <Image
+          src={HeroPattern}
+          alt='Hero Pattern'
+          className='absolute top-0 xl:hidden'
+        />
         <div className='z-10 flex w-fit flex-row items-center gap-[18px] rounded-full bg-white px-8 py-4 text-sm font-bold shadow-hero_etw_shadow'>
           <p className='text-[#F85E9F]'>Explore the world!</p>
           <Suitcase />
         </div>
-        <h1 className='text-[69px] font-bold'>
+        <h1 className='text-6xl font-bold xl:text-[69px]'>
           Travel <span className='text-[#F85E9F]'>top destination</span> of the world
         </h1>
         <p className='font-inter text-lg text-[#19182580]'>
@@ -29,7 +34,7 @@ export const Hero = () => {
           </Button>
         </div>
       </div>
-      <div className='relative grid grid-flow-col grid-rows-2 items-center justify-center gap-8 pb-2 pl-[91px] pr-[106px] pt-[75px]'>
+      <div className='relative hidden grid-flow-col grid-rows-2 items-center justify-center gap-8 pb-2 pl-[91px] pr-[106px] pt-[75px] xl:grid'>
         <Image
           src={HeroPattern}
           alt='Hero Pattern'
