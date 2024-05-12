@@ -16,7 +16,7 @@ export default function Home() {
       <div className='mt-16 w-full'>
         <ClientLogos />
       </div>
-      <div className='mt-16 h-fit w-full pl-[166px]'>
+      <div className='mt-16 h-fit w-full xl:pl-[166px]'>
         <Services />
       </div>
       <div className='mt-[109px] w-full'>

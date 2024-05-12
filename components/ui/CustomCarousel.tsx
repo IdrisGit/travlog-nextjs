@@ -58,7 +58,7 @@ export const CustomCarousel: React.FC = () => {
 
   return (
     <div
-      className='h-full overflow-x-clip overflow-y-visible'
+      className='h-full w-full overflow-x-clip overflow-y-visible'
       ref={emblaRef}
     >
       <div className='flex h-full items-center'>
