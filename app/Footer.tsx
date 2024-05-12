@@ -4,9 +4,9 @@ import { Facebook, Twitter, Instagram } from '@/components/svgs';
 
 export const Footer = () => {
   return (
-    <footer className='m-auto flex w-full flex-col gap-16 font-nunito xl:px-[165px]'>
-      <div className='flex flex-col items-start justify-between gap-[153px] xl:flex-row'>
-        <div className='flex flex-col gap-8 xl:max-w-[281px]'>
+    <footer className='m-auto flex w-full flex-col gap-8 font-nunito xl:gap-16 xl:px-[165px]'>
+      <div className='flex flex-col items-start justify-between gap-10 xl:flex-row xl:gap-[153px]'>
+        <div className='flex flex-col gap-4 xl:max-w-[281px] xl:gap-8'>
           <div className='flex flex-row items-center gap-4'>
             <Image
               src='/logo.svg'
@@ -23,10 +23,10 @@ export const Footer = () => {
             </p>
           </div>
         </div>
-        <div className='mx-auto flex h-full flex-1 flex-col flex-wrap gap-[121px] xl:flex-row'>
-          <div className='flex flex-none flex-col gap-8'>
+        <div className='mx-auto flex h-full flex-1 flex-col flex-wrap gap-10 xl:flex-row xl:gap-[121px]'>
+          <div className='flex flex-none flex-col gap-2 text-center xl:gap-8 xl:text-left'>
             <h6 className='text-[23px] font-bold text-[#191825]'>Company</h6>
-            <ul className='flex flex-col gap-8 font-inter text-lg text-[#191825BF]'>
+            <ul className='flex flex-col gap-2 font-inter text-lg text-[#191825BF] xl:gap-8'>
               <li>
                 <Link
                   href='#'
@@ -54,9 +54,9 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='flex flex-col gap-8'>
+          <div className='flex flex-col gap-2 text-center xl:gap-8 xl:text-left'>
             <h6 className='text-[23px] font-bold text-[#251819]'>Contanct</h6>
-            <ul className='flex flex-col gap-8 font-inter text-lg text-[#191825BF]'>
+            <ul className='flex flex-col gap-2 font-inter text-lg text-[#191825BF] xl:gap-8'>
               <li>
                 <Link
                   href='#'
@@ -91,9 +91,9 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='flex flex-1 flex-col gap-8'>
+          <div className='flex flex-1 flex-col gap-2 text-center xl:gap-8 xl:text-left'>
             <h6 className='text-[23px] font-bold text-[#191825]'>Meet Us</h6>
-            <ul className='flex flex-col gap-8 font-inter text-lg text-[#191825BF]'>
+            <ul className='flex flex-col gap-2 font-inter text-lg text-[#191825BF] xl:gap-8'>
               <li>
                 <p>+00 92 1234 56789</p>
               </li>

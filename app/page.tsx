@@ -10,7 +10,7 @@ export default function Home() {
       <div className='absolute left-[1351px] top-[847px] h-[500px] w-[500px] rounded-full bg-[#FACD49] bg-opacity-50 blur-[500px]'></div>
       {/* Gradient colored backgrounds from the figma design */}
       <Navbar />
-      <div className='mt-16 xl:h-[713px] xl:pl-[165px]'>
+      <div className='mt-10 xl:mt-16 xl:h-[713px] xl:pl-[165px]'>
         <Hero />
       </div>
       <div className='mt-16 w-full'>
@@ -19,10 +19,10 @@ export default function Home() {
       <div className='mt-16 h-fit w-full xl:pl-[166px]'>
         <Services />
       </div>
-      <div className='mt-[109px] w-full'>
+      <div className='mt-20 w-full xl:mt-[109px]'>
         <TravelPoint />
       </div>
-      <div className='m-auto my-[168px] w-fit'>
+      <div className='m-auto my-36 w-fit xl:my-[168px]'>
         <NewsletterCTA />
       </div>
       <Footer />
