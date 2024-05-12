@@ -4,7 +4,7 @@ import { NewsletterGraphic } from '@/components/svgs/NewsletterGraphics';
 
 export const NewsletterCTA = () => {
   return (
-    <div className='relative flex max-w-6xl flex-col gap-16 rounded-[32px] bg-[#FACD4914] px-32 py-16 font-nunito'>
+    <div className='relative flex max-w-[1110px] flex-col gap-16 rounded-[32px] bg-[#FACD4914] px-16 py-32 font-nunito'>
       <NewsletterGraphic className='absolute -left-12 -top-14' />
       <div className='flex flex-col items-center gap-8 text-center'>
         <p className='text-2xl font-bold uppercase text-[#F85E9F]'>subscribe to our newsletter</p>
