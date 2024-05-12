@@ -4,8 +4,8 @@ import womanOnSuitcase from '@/public/assets/WomanOnSuitcase.png';
 
 export const TravelPoint = () => {
   return (
-    <div className='flex flex-row gap-[42px] font-nunito'>
-      <div className='relative flex w-[789px] justify-end '>
+    <div className='flex flex-col font-nunito xl:flex-row xl:gap-[42px]'>
+      <div className='relative hidden w-[789px] justify-end xl:flex'>
         <div className='absolute bottom-4 left-0'>
           <div className='h-[550px] w-[705px] rounded-l-none rounded-r-[500px] bg-[#FACD49]'></div>
         </div>
@@ -35,9 +35,9 @@ export const TravelPoint = () => {
         </div>
       </div>
       <div>
-        <div className='flex max-w-[445px] flex-col gap-16'>
-          <div className='flex flex-col gap-8'>
-            <div className='flex flex-col gap-4'>
+        <div className='flex max-w-[445px] flex-col gap-8 xl:gap-16'>
+          <div className='flex flex-col gap-4 xl:gap-8'>
+            <div className='flex flex-col gap-2 xl:gap-4'>
               <h6 className='text-2xl font-bold uppercase text-[#F85E9F]'>Travel Point</h6>
               <h3 className='text-[44px] font-bold leading-tight text-[#191825]'>
                 We helping you find your dream location
@@ -48,23 +48,23 @@ export const TravelPoint = () => {
               piece of classical Latin literature from 45 BC.
             </p>
           </div>
-          <div className='relative flex max-w-md flex-row flex-wrap gap-8'>
-            <div className='absolute -right-14 -top-14 flex h-[100px] w-[100px] items-center rounded-[100px] bg-[#FACD49] p-8'>
+          <div className='relative flex max-w-md flex-row flex-wrap justify-evenly gap-4 xl:gap-8'>
+            <div className='absolute -right-14 -top-14 hidden h-[100px] w-[100px] items-center rounded-[100px] bg-[#FACD49] p-8 xl:flex'>
               <TicketStar />
             </div>
-            <div className='w-[206px] rounded-[32px] border border-[#1918251A] p-8 text-center'>
+            <div className='w-[150px] rounded-[32px] border border-[#1918251A] p-4 text-center xl:w-[206px] xl:p-8'>
               <p className='text-4xl font-bold text-[#FF5722]'>500+</p>
               <p className='text-lg text-[#191825]'>Holiday Package</p>
             </div>
-            <div className='w-[206px] rounded-[32px] border border-[#1918251A] p-8 text-center'>
+            <div className='w-[150px] rounded-[32px] border border-[#1918251A] p-4 text-center xl:w-[206px] xl:p-8'>
               <p className='text-4xl font-bold text-[#FF5722]'>5100</p>
               <p className='text-lg text-[#191825]'>Luxury Hotel</p>
             </div>
-            <div className='w-[206px] rounded-[32px] border border-[#1918251A] p-8 text-center'>
+            <div className='w-[150px] rounded-[32px] border border-[#1918251A] p-4 text-center xl:w-[206px] xl:p-8'>
               <p className='text-4xl font-bold text-[#FF5722]'>7</p>
               <p className='text-lg text-[#191825]'>Premium Airlines</p>
             </div>
-            <div className='w-[206px] rounded-[32px] border border-[#1918251A] p-8 text-center'>
+            <div className='w-[150px] rounded-[32px] border border-[#1918251A] p-4 text-center xl:w-[206px] xl:p-8'>
               <p className='text-4xl font-bold text-[#FF5722]'>2k+</p>
               <p className='text-lg text-[#191825]'>Happy Customer</p>
             </div>
