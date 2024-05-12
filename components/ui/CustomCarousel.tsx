@@ -61,13 +61,13 @@ export const CustomCarousel: React.FC = () => {
 
   return (
     <div
-      className='h-full overflow-hidden'
+      className='h-full overflow-x-clip overflow-y-visible'
       ref={emblaRef}
     >
       <div className='flex h-full items-center'>
         {slides.map((item, index) => (
           <div
-            className='hover:shadow-carousel_shadow mx-2.5 max-h-[443px] min-w-[350px] max-w-[350px] rounded-[32px] bg-white p-16 hover:z-10'
+            className='mx-2.5 h-[443px] max-h-[443px] min-w-[350px] max-w-[350px] rounded-[32px] bg-white p-16 transition-shadow duration-200 hover:shadow-carousel_shadow'
             key={index}
           >
             <div className='m-auto flex min-w-0 flex-[0_0_100%] flex-col items-center gap-16'>
