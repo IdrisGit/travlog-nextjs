@@ -14,7 +14,7 @@ export const NewsletterGraphic = React.forwardRef<SVGSVGElement, IconProps>(
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
     >
-      <g clip-path='url(#clip0_832_1248)'>
+      <g clipPath='url(#clip0_832_1248)'>
         <path
           d='M4.83998 128.32C3.39998 128.32 2.22998 129.5 2.22998 130.95C2.22998 132.4 3.39998 133.58 4.83998 133.58C6.27998 133.58 7.44998 132.4 7.44998 130.95C7.44998 129.5 6.27998 128.32 4.83998 128.32Z'
           fill='#FF5722'

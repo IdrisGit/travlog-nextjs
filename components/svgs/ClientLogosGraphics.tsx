@@ -14,7 +14,7 @@ export const ClientLogosGraphics = React.forwardRef<SVGSVGElement, IconProps>(
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
     >
-      <g clip-path='url(#clip0_832_1216)'>
+      <g clipPath='url(#clip0_832_1216)'>
         <path
           d='M44.0254 170.703L65 170.703L54.5127 160.216L44.0254 170.703Z'
           fill='#FF5722'
