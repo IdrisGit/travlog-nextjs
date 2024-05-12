@@ -8,7 +8,11 @@ import { Footer } from '@/app/Footer';
 
 export default function Home() {
   return (
-    <main className='bg-white pb-16'>
+    <main className='relative overflow-auto bg-white pb-16'>
+      {/* Gradient colored backgrounds from the figma design */}
+      <div className='absolute -left-[356px] -top-[223px] h-[500px] w-[500px] rounded-full bg-[#FF5722] bg-opacity-50 blur-[500px]'></div>
+      <div className='absolute left-[1351px] top-[847px] h-[500px] w-[500px] rounded-full bg-[#FACD49] bg-opacity-50 blur-[500px]'></div>
+      {/* Gradient colored backgrounds from the figma design */}
       <Navbar />
       <div className='mt-16 h-[713px] pl-[165px]'>
         <Hero />
