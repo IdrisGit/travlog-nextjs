@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <footer className='m-auto flex w-full flex-col gap-16 px-[165px] font-nunito'>
       <div className='flex flex-row items-start justify-between gap-[153px]'>
-        <div className='flex flex-col gap-8 xl:max-w-72'>
+        <div className='flex flex-col gap-8 xl:max-w-[281px]'>
           <div className='flex flex-row items-center gap-4'>
             <Image
               src='/logo.svg'
@@ -25,40 +25,76 @@ export const Footer = () => {
             </p>
           </div>
         </div>
-        <div className='flex h-full flex-1 flex-col flex-wrap justify-center gap-[121px] xl:flex-row'>
-          <div className='flex h-full flex-col gap-8'>
-            <h6 className='text-2xl font-bold text-[#191825]'>Company</h6>
+        <div className='flex h-full flex-1 flex-col flex-wrap gap-[121px] xl:flex-row'>
+          <div className='flex flex-none flex-col gap-8'>
+            <h6 className='text-[23px] font-bold text-[#191825]'>Company</h6>
             <ul className='flex flex-col gap-8 font-inter text-lg text-[#191825BF]'>
               <li>
-                <Link href='#'> About</Link>
+                <Link
+                  href='#'
+                  className='hover:text-[#191825]'
+                >
+                  {' '}
+                  About
+                </Link>
               </li>
               <li>
-                <Link href='#'>Career</Link>
+                <Link
+                  href='#'
+                  className='hover:text-[#191825]'
+                >
+                  Career
+                </Link>
               </li>
               <li>
-                <Link href='#'>Mobile</Link>
+                <Link
+                  href='#'
+                  className='hover:text-[#191825]'
+                >
+                  Mobile
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className='flex flex-col gap-8'>
+            <h6 className='text-[23px] font-bold text-[#251819]'>Contanct</h6>
+            <ul className='flex flex-col gap-8 font-inter text-lg text-[#191825BF]'>
+              <li>
+                <Link
+                  href='#'
+                  className='hover:text-[#191825]'
+                >
+                  Why Travlog?
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='#'
+                  className='hover:text-[#191825]'
+                >
+                  Partner with us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='#'
+                  className='hover:text-[#191825]'
+                >
+                  FAQ&apos;s
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='#'
+                  className='hover:text-[#191825]'
+                >
+                  Blog
+                </Link>
               </li>
             </ul>
           </div>
           <div className='flex flex-1 flex-col gap-8'>
-            <h6 className='text-2xl font-bold text-[#251819]'>Contanct</h6>
-            <ul className='flex flex-col gap-8 font-inter text-lg text-[#191825BF]'>
-              <li>
-                <Link href='#'>Why Travlog?</Link>
-              </li>
-              <li>
-                <Link href='#'>Partner with us</Link>
-              </li>
-              <li>
-                <Link href='#'>FAQ&apos;s</Link>
-              </li>
-              <li>
-                <Link href='#'>Blog</Link>
-              </li>
-            </ul>
-          </div>
-          <div className='flex flex-1 flex-col gap-8'>
-            <h6 className='text-2xl font-bold text-[#191825]'>Meet Us</h6>
+            <h6 className='text-[23px] font-bold text-[#191825]'>Meet Us</h6>
             <ul className='flex flex-col gap-8 font-inter text-lg text-[#191825BF]'>
               <li>
                 <p>+00 92 1234 56789</p>

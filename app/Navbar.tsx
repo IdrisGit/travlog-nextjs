@@ -24,22 +24,37 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href='#'>Discover</Link>
+            <Link
+              href='#'
+              className='hover:text-[#222831]'
+            >
+              Discover
+            </Link>
           </li>
           <li>
-            <Link href='#'>Special Deals</Link>
+            <Link
+              href='#'
+              className='hover:text-[#222831]'
+            >
+              Special Deals
+            </Link>
           </li>
           <li>
-            <Link href='#'>Contact</Link>
+            <Link
+              href='#'
+              className='hover:text-[#222831]'
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
       <div>
         <ul className='flex flex-row'>
-          <li className='px-8 py-4 text-sm font-bold text-[#222831]'>
+          <li className='px-8 py-4 text-sm font-bold text-[#222831] hover:text-black'>
             <Link href='#'>Log In</Link>
           </li>
-          <li className='rounded-[100px] bg-[#5D50C6] px-8 py-4 text-sm font-bold text-[#EEEEEE]'>
+          <li className='rounded-[100px] bg-[#5D50C6] px-8 py-4 text-sm font-bold text-[#EEEEEE] hover:cursor-pointer hover:shadow-hero_gs_shadow'>
             <Link href='#'>Sign Up</Link>
           </li>
         </ul>

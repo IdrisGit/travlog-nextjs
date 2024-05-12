@@ -25,10 +25,10 @@ export const Hero = () => {
           We always make our customer happy by providing as many choices as possible{' '}
         </p>
         <div className='flex flex-row gap-4'>
-          <Button className='rounded-full bg-[#5D50C6] px-8 py-4 text-sm font-bold text-[#EEEEEE] shadow-hero_gs_shadow'>
+          <Button className='rounded-full bg-[#5D50C6] px-8 py-4 text-sm font-bold text-[#EEEEEE] hover:shadow-hero_gs_shadow'>
             Get Started
           </Button>
-          <Button className='flex items-center gap-2 rounded-full border border-[#EEEEEE] bg-[#FFFFFF] px-8 py-4 text-sm font-bold text-[#222831]'>
+          <Button className='flex items-center gap-2 rounded-full border border-[#EEEEEE] bg-[#FFFFFF] px-8 py-4 text-sm font-bold text-[#222831] hover:shadow-hero_gs_shadow'>
             <Play className='h-6 w-6' /> <p className='m-auto'>Watch Demo</p>
           </Button>
         </div>
