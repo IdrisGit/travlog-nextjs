@@ -23,7 +23,7 @@
 
 @layer base {
   body {
-    @apply m-auto max-w-screen-2xl bg-[#EDEDED];
+    @apply m-auto max-w-[1440px] bg-[#EDEDED];
   }
 }
 
