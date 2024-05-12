@@ -14,7 +14,7 @@ export const Hero = () => {
   return (
     <div className='flex h-full w-full flex-row items-center font-nunito'>
       <div className='flex w-[427px] flex-col gap-[43px]'>
-        <div className='shadow-hero_etw_shadow flex w-fit flex-row items-center gap-[18px] rounded-full border border-black px-8 py-4 text-sm font-bold'>
+        <div className='z-10 flex w-fit flex-row items-center gap-[18px] rounded-full bg-white px-8 py-4 text-sm font-bold shadow-hero_etw_shadow'>
           <p className='text-[#F85E9F]'>Explore the world!</p>
           <Suitcase />
         </div>
@@ -25,7 +25,7 @@ export const Hero = () => {
           We always make our customer happy by providing as many choices as possible{' '}
         </p>
         <div className='flex flex-row gap-4'>
-          <Button className='shadow-hero_gs_shadow rounded-full bg-[#5D50C6] px-8 py-4 text-sm font-bold text-[#EEEEEE]'>
+          <Button className='rounded-full bg-[#5D50C6] px-8 py-4 text-sm font-bold text-[#EEEEEE] shadow-hero_gs_shadow'>
             Get Started
           </Button>
           <Button className='flex items-center gap-2 rounded-full border border-[#EEEEEE] bg-[#FFFFFF] px-8 py-4 text-sm font-bold text-[#222831]'>
@@ -44,7 +44,7 @@ export const Hero = () => {
             src={HeroImageOne}
             alt='Hero Image'
           />
-          <div className='shadow-hero_icon_shadow absolute -bottom-[30px] -left-[35px] rounded-full bg-[#F85E9F] p-4'>
+          <div className='absolute -bottom-[30px] -left-[35px] rounded-full bg-[#F85E9F] p-4 shadow-hero_icon_shadow'>
             <Send />
           </div>
         </div>
@@ -59,12 +59,12 @@ export const Hero = () => {
             src={HeroImageThree}
             alt='Hero Image'
           />
-          <div className='shadow-hero_icon_tp_shadow absolute -right-[92px] bottom-[47px] flex flex-row items-center justify-center gap-1 rounded-full bg-white px-8 py-4 font-nunito font-bold text-[#393E46]'>
+          <div className='absolute -right-[92px] bottom-[47px] flex flex-row items-center justify-center gap-1 rounded-full bg-white px-8 py-4 font-nunito font-bold text-[#393E46] shadow-hero_icon_tp_shadow'>
             <Location />
             <p className='text-sm'>Top Places</p>
           </div>
         </div>
-        <div className='shadow-hero_icon_shadow absolute bottom-0 left-[474px] rounded-full bg-[#FF5722] p-4'>
+        <div className='absolute bottom-0 left-[474px] rounded-full bg-[#FF5722] p-4 shadow-hero_icon_shadow'>
           <AddUser />
         </div>
       </div>
