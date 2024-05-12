@@ -1,9 +1,5 @@
 import { Navbar } from '@/app/Navbar';
-import { Hero } from '@/app/Hero';
-import { ClientLogos } from '@/app/ClientLogos';
-import { Services } from '@/app/Services';
-import { TravelPoint } from '@/app/TravelPoint';
-import { NewsletterCTA } from '@/app/NewsletterCTA';
+import { Hero, ClientLogos, Services, TravelPoint, NewsletterCTA } from '@/app/_components';
 import { Footer } from '@/app/Footer';
 
 export default function Home() {
