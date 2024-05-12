@@ -8,7 +8,7 @@ import { ClientLogosGraphics } from '@/components/svgs/ClientLogosGraphics';
 
 export const ClientLogos = () => {
   return (
-    <div className='relative flex w-full justify-between px-[165px] py-16'>
+    <div className='relative flex h-full w-full justify-between px-[165px] py-16'>
       <Image
         src={TripadvisorLogo}
         alt='Tripadvisor Logo'

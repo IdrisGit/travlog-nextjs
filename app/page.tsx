@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Navbar } from '@/app/Navbar';
 import { Hero } from '@/app/Hero';
 import { ClientLogos } from '@/app/ClientLogos';
@@ -9,21 +8,21 @@ import { Footer } from '@/app/Footer';
 
 export default function Home() {
   return (
-    <main className='bg-white'>
+    <main className='bg-white pb-16'>
       <Navbar />
-      <div>
+      <div className='mt-16 h-[713px] pl-[165px]'>
         <Hero />
       </div>
-      <div>
+      <div className='mt-16 w-full'>
         <ClientLogos />
       </div>
-      <div>
+      <div className='mt-16 h-[500px] w-full pl-[166px]'>
         <Services />
       </div>
-      <div>
+      <div className='mt-[109px] w-full'>
         <TravelPoint />
       </div>
-      <div>
+      <div className='m-auto my-[168px] w-fit'>
         <NewsletterCTA />
       </div>
       <Footer />

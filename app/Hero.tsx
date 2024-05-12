@@ -12,7 +12,7 @@ import HeroPattern from '@/public/assets/HeroPattern.svg';
 
 export const Hero = () => {
   return (
-    <div className='flex h-[713px] flex-row items-center pl-[165px] font-nunito'>
+    <div className='flex h-full w-full flex-row items-center font-nunito'>
       <div className='flex w-[427px] flex-col gap-[43px]'>
         <div className='shadow-hero_etw_shadow flex w-fit flex-row items-center gap-[18px] rounded-full border border-black px-8 py-4 text-sm font-bold'>
           <p className='text-[#F85E9F]'>Explore the world!</p>
