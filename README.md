@@ -3,7 +3,7 @@
 Landing Page for Travlog travel agency built with **NextJS**.
 
 
-## Table of contents
+## Table of Contents
 - [Technologies](#technologies-used)
 - [Live](#live)
 - [License](#license)
