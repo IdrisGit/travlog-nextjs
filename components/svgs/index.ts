@@ -5,6 +5,7 @@ export * from '@/components/svgs/Cloudy';
 export * from '@/components/svgs/Envelope';
 export * from '@/components/svgs/Facebook';
 export * from '@/components/svgs/GlobeDestination';
+export * from '@/components/svgs/Hamburger';
 export * from '@/components/svgs/Instagram';
 export * from '@/components/svgs/Location';
 export * from '@/components/svgs/NewsletterGraphics';
