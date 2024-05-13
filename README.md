@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Travlog
 
-## Getting Started
+Landing Page for Travlog travel agency built with **NextJS**.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of contents
+- [Technologies](#technologies-used)
+- [Demo](#demo)
+- [License](#license)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- :label: TypeScript v5
+- :toolbox: NextJS v14
+- :atom_symbol: React v18
+- :art: Headless UI v2 (tailwindCSS v3)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Check out the live demo of Travlog:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- :globe_with_meridians: **Live Page:** [travlog-nextjs.vercel.app](https://travlog-nextjs.vercel.app/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+MarkUp is licensed under the [MIT License](LICENSE.md).
+
+
+## Contact
+
+If you have any questions, suggestions, or feedback, please feel free to contact me.
+
+Email: idris.gadi01@gmail.com  
+GitHub: https://github.com/IdrisGit
