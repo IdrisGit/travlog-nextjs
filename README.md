@@ -5,7 +5,7 @@ Landing Page for Travlog travel agency built with **NextJS**.
 
 ## Table of contents
 - [Technologies](#technologies-used)
-- [Demo](#demo)
+- [Live](#live)
 - [License](#license)
 - [Contact](#contact)
 
@@ -18,9 +18,7 @@ Landing Page for Travlog travel agency built with **NextJS**.
 - :art: Headless UI v2 (tailwindCSS v3)
 
 
-## Demo
-
-Check out the live demo of Travlog:
+## Live
 
 - :globe_with_meridians: **Live Page:** [travlog-nextjs.vercel.app](https://travlog-nextjs.vercel.app/)
 
